@@ -5,7 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.Spinner;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,6 +29,6 @@ public class MainActivity extends AppCompatActivity {
         String inputText = editText.getText().toString();
 
         intent.putExtra("inputText", inputText);
-        startActivity(intent);
+        startActivity(intent); // смена активити
     }
 }
