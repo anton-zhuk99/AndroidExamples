@@ -3,4 +3,10 @@
     <string name="edit_text_placeholder">Enter text</string>
     <string name="button_text">Send</string>
     <string name="button_text_ru">Отправить</string>
+    <string name="text_view_text">Hello World</string>
+    <string name="multi_line_text">
+        Lorem <b>ipsum</b> dolor sit amet, consectetur adipiscing elit. <br/> Proin sit <i>amet</i> maximus orci. Phasellus faucibus <br/> tortor in elit <u>bibendum</u> elementum. <br/> Duis vel mauris non quam ultrices sollicitudin eu a lacus.
+    </string>
+    <string name="text_with_link">Search here: www.google.com</string>
+    <string name="editTextInputType"></string>
 </resources>

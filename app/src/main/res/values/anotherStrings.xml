@@ -1,8 +1,8 @@
 <resources>
-    <array name="currencies">
+    <string-array name="currencies">
         <item>BTC</item>
         <item>ETH</item>
         <item>DOGE</item>
         <item>XRP</item>
-    </array>
+    </string-array>
 </resources>

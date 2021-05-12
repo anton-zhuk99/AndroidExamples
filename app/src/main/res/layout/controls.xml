@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="5"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_text"
+        android:textSize="18pt"
+        android:textStyle="italic"
+        android:textColor="@color/purple_700"
+        android:background="@color/black"
+        android:clickable="true"
+        android:onClick="onTextViewClick"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/multi_line_text"
+        android:textSize="12pt"
+        android:lineSpacingMultiplier="1.2"
+        android:shadowDx="20"
+        android:shadowDy="20"
+        android:shadowRadius="10"
+        android:shadowColor="@color/purple_700"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_with_link"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:textSize="12pt"/>
+
+</LinearLayout>
