@@ -17,6 +17,12 @@ public class DisplayMessageActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String inputText = intent.getStringExtra("inputText");
 
+        double pi = intent.getDoubleExtra("pi", -1.0);
+
+        if (pi == -1.0) {
+            System.out.println("Error!");
+        }
+
         TextView textView = findViewById(R.id.textView);
         textView.setText(inputText);
     }

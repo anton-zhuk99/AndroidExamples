@@ -3,12 +3,14 @@ package com.example.myfirstapp;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -23,6 +25,9 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.button_examples);
+
+        Intent intent = new Intent(this, AdapterViewsActivity.class);
+        startActivity(intent);
 
 //        EditText login = findViewById(R.id.editTextLogin);
 //        login.setHint("Login");
@@ -47,6 +52,8 @@ public class MainActivity extends AppCompatActivity
         option1.setChecked(!isRadioButtonChecked);
 
         option1.setOnCheckedChangeListener(new RadioButtonOnCheckedChangeListener());
+        option2.setOnCheckedChangeListener(new RadioButtonOnCheckedChangeListener());
+        option3.setOnCheckedChangeListener(new RadioButtonOnCheckedChangeListener());
     }
 
     @Override
@@ -106,17 +113,22 @@ public class MainActivity extends AppCompatActivity
 
     public void onButtonClick(View view) {
         String buttonText = ((Button) view).getText().toString();
+
+
+        Intent intent = new Intent(this, DisplayMessageActivity.class);
+
+        EditText editText = findViewById(R.id.editText);
+        String inputText = editText.getText().toString();
+
+        intent.putExtra("pi", 3.14);
+
+        intent.putExtra("inputText", inputText);
+        startActivity(intent); // смена активити
     }
 
     // Intent - связывать два активити
     // activity
 //    public void sendMessage(View view) {
-//        Intent intent = new Intent(this, DisplayMessageActivity.class);
-//
-//        EditText editText = findViewById(R.id.editText);
-//        String inputText = editText.getText().toString();
-//
-//        intent.putExtra("inputText", inputText);
-//        startActivity(intent); // смена активити
+
 //    }
 }
