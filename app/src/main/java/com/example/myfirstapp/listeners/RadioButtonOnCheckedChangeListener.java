@@ -1,8 +1,10 @@
-package com.example.myfirstapp;
+package com.example.myfirstapp.listeners;
 
 import android.widget.CompoundButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
+
+import com.example.myfirstapp.R;
 
 public class RadioButtonOnCheckedChangeListener implements CompoundButton.OnCheckedChangeListener {
 

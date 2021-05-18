@@ -8,5 +8,5 @@
         Lorem <b>ipsum</b> dolor sit amet, consectetur adipiscing elit. <br /> Proin sit <i>amet</i> maximus orci. Phasellus faucibus <br /> tortor in elit <u>bibendum</u> elementum. <br /> Duis vel mauris non quam ultrices sollicitudin eu a lacus.
     </string>
     <string name="text_with_link">Search here: www.google.com</string>
-    <string name="editTextInputType"></string>
+    <string name="gridview_header">GridView Example</string>
 </resources>

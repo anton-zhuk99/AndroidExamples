@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApp">
-        <activity android:name=".AdapterViewsActivity"></activity>
-        <activity android:name=".CheckBoxActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.GridViewActivity"></activity>
+        <activity android:name=".activities.AdapterViewsActivity" />
+        <activity android:name=".activities.CheckBoxActivity" />
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,11 +20,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DisplayMessageActivity"
-            android:parentActivityName=".MainActivity">
+            android:name=".activities.DisplayMessageActivity"
+            android:parentActivityName=".activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".activities.MainActivity" />
         </activity>
     </application>
 

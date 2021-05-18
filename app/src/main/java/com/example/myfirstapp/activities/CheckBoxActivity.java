@@ -1,10 +1,12 @@
-package com.example.myfirstapp;
+package com.example.myfirstapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+
+import com.example.myfirstapp.R;
 
 public class CheckBoxActivity extends AppCompatActivity {
 
