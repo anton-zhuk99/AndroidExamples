@@ -26,7 +26,6 @@
         android:horizontalSpacing="5dp"
         android:verticalSpacing="35dp"
         android:stretchMode="columnWidth"
-        android:background="@color/purple_700"
         android:layout_margin="10dp"
         >
     </GridView>
