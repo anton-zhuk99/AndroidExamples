@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_item_id_settings">java_menu_settings</string>
+    <string name="menu_item_id_save">java_menu_save</string>
+    <string name="menu_item_id_open">java_menu_open</string>
+</resources>

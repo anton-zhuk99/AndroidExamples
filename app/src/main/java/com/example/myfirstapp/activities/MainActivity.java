@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(this, GridViewActivity.class);
+        Intent intent = new Intent(this, JavaBasedMenuActivity.class);
         startActivity(intent);
 
 //        EditText login = findViewById(R.id.editTextLogin);
