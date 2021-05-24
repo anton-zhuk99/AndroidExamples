@@ -1,24 +1,15 @@
 package com.example.myfirstapp.activities;
 
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
-import android.view.MotionEvent;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.RadioButton;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.myfirstapp.R;
-import com.example.myfirstapp.listeners.RadioButtonOnCheckedChangeListener;
-
-import java.util.Random;
+import com.example.myfirstapp.module07.dialog.DialogActivity;
+import com.example.myfirstapp.module07.menu.GroupedMenuActivity;
+import com.example.myfirstapp.module07.menu.XmlBasedSubMenuActivity;
+import com.example.myfirstapp.module07.notification.NotificationActivity;
 
 public class MainActivity extends AppCompatActivity
 //        implements View.OnClickListener, View.OnTouchListener
@@ -29,7 +20,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(this, XmlBasedSubMenuActivity.class);
+        Intent intent = new Intent(this, NotificationActivity.class);
         startActivity(intent);
 
 //        EditText login = findViewById(R.id.editTextLogin);

@@ -9,4 +9,8 @@
     </string>
     <string name="text_with_link">Search here: www.google.com</string>
     <string name="gridview_header">GridView Example</string>
+
+    <string name="show_notification_button_text">Show notification</string>
+    <string name="channel_name">MyNotificationChannel</string>
+    <string name="channel_description">My Notification Channel</string>
 </resources>

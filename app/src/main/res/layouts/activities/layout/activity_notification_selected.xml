@@ -4,15 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".module07.menu.XmlBasedMenuActivity">
+    tools:context=".module07.notification.NotificationSelectedActivity">
 
     <TextView
-        android:id="@+id/menu_textview"
+        android:id="@+id/notification_clicked_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello!"
+        android:text="Notification Clicked"
         android:textSize="30sp"
-        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

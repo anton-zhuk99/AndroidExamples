@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApp">
-        <activity android:name=".activities.XmlBasedSubMenuActivity"></activity>
-        <activity android:name=".activities.JavaBasedMenuActivity" />
-        <activity android:name=".activities.XmlBasedMenuActivity" />
+        <activity android:name=".module07.menu.GroupedMenuActivity"></activity>
+        <activity android:name=".module07.dialog.DialogActivity" />
+        <activity android:name=".module07.notification.NotificationSelectedActivity" />
+        <activity android:name=".module07.notification.NotificationActivity" />
+        <activity android:name=".module07.menu.XmlBasedSubMenuActivity" />
+        <activity android:name=".module07.menu.JavaBasedMenuActivity" />
+        <activity android:name=".module07.menu.XmlBasedMenuActivity" />
         <activity android:name=".activities.GalleryActivity" />
         <activity android:name=".activities.GridViewActivity" />
         <activity android:name=".activities.AdapterViewsActivity" />
