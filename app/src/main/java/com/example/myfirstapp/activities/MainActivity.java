@@ -10,6 +10,8 @@ import com.example.myfirstapp.module07.dialog.DialogActivity;
 import com.example.myfirstapp.module07.menu.GroupedMenuActivity;
 import com.example.myfirstapp.module07.menu.XmlBasedSubMenuActivity;
 import com.example.myfirstapp.module07.notification.NotificationActivity;
+import com.example.myfirstapp.module08.fragments.ExampleActivity;
+import com.example.myfirstapp.module08.fragments.TwoFragmentsActivity;
 
 public class MainActivity extends AppCompatActivity
 //        implements View.OnClickListener, View.OnTouchListener
@@ -20,7 +22,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(this, NotificationActivity.class);
+        Intent intent = new Intent(this, DialogActivity.class);
         startActivity(intent);
 
 //        EditText login = findViewById(R.id.editTextLogin);

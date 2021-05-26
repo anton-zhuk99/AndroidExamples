@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApp">
-        <activity android:name=".module07.menu.GroupedMenuActivity"></activity>
+        <activity android:name=".module08.fragments.TwoFragmentsActivity"></activity>
+        <activity android:name=".module08.fragments.ExampleActivity" />
+        <activity android:name=".module07.menu.GroupedMenuActivity" />
         <activity android:name=".module07.dialog.DialogActivity" />
         <activity android:name=".module07.notification.NotificationSelectedActivity" />
         <activity android:name=".module07.notification.NotificationActivity" />
