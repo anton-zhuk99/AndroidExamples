@@ -6,12 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.myfirstapp.R;
-import com.example.myfirstapp.module07.dialog.DialogActivity;
-import com.example.myfirstapp.module07.menu.GroupedMenuActivity;
-import com.example.myfirstapp.module07.menu.XmlBasedSubMenuActivity;
-import com.example.myfirstapp.module07.notification.NotificationActivity;
-import com.example.myfirstapp.module08.fragments.ExampleActivity;
-import com.example.myfirstapp.module08.fragments.TwoFragmentsActivity;
+import com.example.myfirstapp.module12.sqllite.helper.DatabaseWithHelperActivity;
+import com.example.myfirstapp.module12.sqllite.simple.DatabaseActivity;
+import com.example.myfirstapp.module14.multithreads.TwoThreadsActivity;
+import com.example.myfirstapp.module14.simple.MultithreadActivity;
 
 public class MainActivity extends AppCompatActivity
 //        implements View.OnClickListener, View.OnTouchListener
@@ -22,7 +20,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(this, DialogActivity.class);
+        Intent intent = new Intent(this, TwoThreadsActivity.class);
         startActivity(intent);
 
 //        EditText login = findViewById(R.id.editTextLogin);

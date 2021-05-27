@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApp">
-        <activity android:name=".module08.fragments.TwoFragmentsActivity"></activity>
+        <activity android:name=".module14.multithreads.TwoThreadsActivity"></activity>
+        <activity android:name=".module14.simple.MultithreadActivity" />
+        <activity android:name=".module12.sqllite.helper.UserActivity" />
+        <activity android:name=".module12.sqllite.helper.DatabaseWithHelperActivity" />
+        <activity android:name=".module12.sqllite.simple.DatabaseActivity" />
+        <activity android:name=".module08.fragments.TwoFragmentsActivity" />
         <activity android:name=".module08.fragments.ExampleActivity" />
         <activity android:name=".module07.menu.GroupedMenuActivity" />
         <activity android:name=".module07.dialog.DialogActivity" />
